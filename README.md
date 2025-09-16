@@ -30,25 +30,25 @@
 
 ### DSS Reasoning Focus - Four Key Aspects
 
-1. **Supporting Human Cognitive Processes (1.5 pts)**
+1. **Supporting Human Cognitive Processes**
    - Augments and enhances human reasoning capabilities
    - Does NOT replace human decision-makers
    - Provides structured frameworks, data visualization, analytical tools
    - Helps process complex information more effectively
 
-2. **Model-Based Reasoning (1.5 pts)**
+2. **Model-Based Reasoning**
    - Uses mathematical, statistical, and logical models
    - Simulates different scenarios and outcomes
    - Includes: optimization models, simulation models, predictive analytics
    - Enables systematic reasoning about complex problems
 
-3. **Knowledge-Based Reasoning (1 pt)**
+3. **Knowledge-Based Reasoning**
    - Incorporates expert systems and knowledge bases
    - Applies rule-based reasoning
    - Utilizes domain expertise and established decision rules
    - Guides the reasoning process with specialized knowledge
 
-4. **Interactive and Iterative Reasoning (1 pt)**
+4. **Interactive and Iterative Reasoning**
    - Facilitates interactive reasoning processes
    - Enables "what-if" scenario exploration
    - Allows users to modify assumptions
@@ -110,24 +110,24 @@
 
 ### Expert System Limitations (Critical Assessment)
 
-#### Strengths (1.5 pts)
+#### Strengths 
 - Excel at capturing and applying explicit, rule-based knowledge in structured domains
 - Provide consistent, reproducible decisions without fatigue or emotional bias
 - Can process large volumes of information quickly and systematically
 - Effective in well-defined domains like medical diagnosis or equipment troubleshooting
 
-#### Critical Limitations (2 pts)
+#### Critical Limitations
 - **Tacit Knowledge Gap**: Cannot capture intuitive, experiential knowledge that human experts develop over years of practice
 - **Contextual Understanding**: Lack deep contextual awareness and common-sense reasoning that humans naturally apply
 - **Creativity and Innovation**: Cannot generate novel solutions or adapt flexibly to unprecedented situations
 - **Learning Limitations**: Traditional expert systems cannot learn from new experiences like human experts do
 
-#### Knowledge Base Constraints (1 pt)
+#### Knowledge Base Constraints
 - Knowledge acquisition bottleneck makes it difficult to capture complete expert knowledge
 - Rule-based representations cannot fully model the complexity of human reasoning processes
 - Static nature of traditional knowledge bases limits adaptability
 
-#### Conclusion (0.5 pts)
+#### Conclusion
 Expert systems do NOT most accurately emulate human experts via knowledge bases alone. They complement rather than replicate human expertise. Modern AI approaches (machine learning, neural networks) show more promise for closer emulation.
 
 ## 3. Information Theory - Mathematical Foundations
@@ -184,22 +184,22 @@ This shows strong predictive relationship between music and mood.
 
 ### Four Aspects of Optimality
 
-#### 1. Minimum Expected Length Property (2 pts)
+#### 1. Minimum Expected Length Property 
 - **Formula**: L = Σ(pi × li) where pi = probability of symbol i, li = codeword length
 - **Guarantee**: No other prefix code can achieve smaller expected length for same symbol distribution
 - **Theoretical Foundation**: Approaches Shannon's entropy bound
 
-#### 2. Greedy Algorithm Optimality (1.5 pts)
+#### 2. Greedy Algorithm Optimality 
 - **Method**: Repeatedly combines two least frequent nodes/symbols
 - **Result**: Less frequent symbols placed deeper in binary tree (longer codes)
 - **Effect**: More frequent symbols get shorter codes, minimizing overall expected length
 
-#### 3. Prefix Property Maintenance (1 pt)
+#### 3. Prefix Property Maintenance 
 - **Definition**: No codeword is a prefix of another
 - **Importance**: Essential for unique decodability
 - **Achievement**: Maintained throughout construction while achieving optimal compression
 
-#### 4. Theoretical Foundation (0.5 pts)
+#### 4. Theoretical Foundation
 - **Mathematical Proof**: Optimality is mathematically proven
 - **Entropy Relation**: Relates closely to Shannon's entropy bound
 - **Significance**: Makes Huffman codes approach theoretical minimum for prefix-free codes
